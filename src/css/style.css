@@ -1,0 +1,75 @@
+body {
+    font-family: 'Verdana', sans-serif;
+}
+
+.modal {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.modal-window {
+    display: flex;
+    flex-direction: column;
+}
+
+.modal .modal-title {
+    border-radius: 10px 10px 0 0; 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 10px 30px;
+    width: 100%;
+    background-color: rgb(42, 42, 42);
+    color: white;
+    text-align: left;
+}
+
+.modal .modal-content {
+    padding: 15px 30px;
+    background: white;
+}
+
+.modal .modal-controls {
+    padding: 15px 30px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.modal .modal-controls button {
+    padding: 10px 30px;
+    border-radius: 7px;
+    border: none;
+    min-width: 100px;
+}
+
+.modal .modal-controls button:hover {
+    cursor: pointer;
+}
+
+.modal .modal-confirm_button {
+    background: rgb(48, 95, 48);
+    color: white;
+}
+
+.modal .modal-confirm_button:hover {
+    background: rgb(77, 152, 77);
+}
+
+.modal .modal-reject_button {
+    background: rgb(90, 18, 18);
+    color: white;
+}
+
+.modal .modal-reject_button:hover {
+    background: rgb(122, 25, 25);
+}

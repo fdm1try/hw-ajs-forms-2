@@ -1,0 +1,106 @@
+#goods-list {
+  width: 500px;
+  font-family: 'Verdana', sans-serif;
+}
+
+.goods-list-header {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.goods-list-title {
+  display: flex;
+  align-self: center;
+}
+
+.goods-list-add_button {
+  margin-left: auto;
+  border: none;
+  background: none;
+  font-size: 30px;
+}
+
+.goods-list-add_button:not([disabled]):hover {
+  cursor: pointer;
+  color: rgb(28, 116, 28);
+}
+
+.goods-list-table {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.goods-list-table th, .goods-list-table td {
+  text-align: left;
+}
+
+.goods-list-item-name {
+  width: 60%;
+}
+
+.goods-list-item-price {
+  width: 30%;
+}
+
+.goods-list-item-actions {
+  width: 10%;
+}
+
+.goods-list-item-actions button {
+  background: none;
+  border: none;
+}
+
+.goods-list-item-edit_button:hover {
+  cursor: pointer;
+  color: rgb(181, 181, 21);
+}
+
+.goods-list-item-remove_button:hover {
+  cursor: pointer;
+  color: red;
+}
+
+.goods-list-item-editor {
+  width: 450px;
+  position: absolute;
+  top: 40px;
+  left: 30px;
+  background-color: white;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid black;
+}
+
+.goods-list-item-editor label {
+  display: block;
+  margin-top: 10px;
+}
+
+.goods-list-item-editor input {
+  margin-top: 5px;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+.goods-list-item-editor-controls {
+  margin: 50px 20px 20px 20px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.goods-list-item-editor-controls button:hover {
+  cursor: pointer;
+  background-color: rgb(237, 237, 237);
+}
+
+.goods-list-item-editor-controls button {
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid black;
+  padding: 5px 30px;
+}
